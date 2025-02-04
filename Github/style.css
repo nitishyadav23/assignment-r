@@ -1,0 +1,413 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;;
+}
+html,body{
+    overflow-x:hidden  ;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  }
+
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    
+  }
+
+  .nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+
+  .nav a:hover {
+    color: #007BFF;
+  }
+  .bar{
+    display: none;
+  }
+  @media (max-width: 768px){
+  .bar{
+    display: block;
+  }
+  .nav ul li a{
+    display: none;
+  }
+  }
+.hero{
+    padding-top: 100px;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    
+}
+.hero-right{
+  font-size: 90px;
+  font-weight: 900;
+  line-height: 1;
+}
+.hero-left{
+  padding-top: 290px;
+}
+.hero-left a{
+  list-style: none;
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+  font-family: Cormorant Garamond;
+}
+.img{
+  background-image: url('https://s0.wp.com/wp-content/themes/premium/enroute/assets/images/StockSnap_K6K80SHQJO-cropped.jpg');
+  height: 510px;
+  width: 100%;
+  padding-top: 200px;
+  
+}
+.quote {
+  position:absolute;
+  left: 60%;
+  top: 800px;
+  /* bottom: 1px;
+  right: 50px; */
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 400px;
+  font-style: italic;
+  font-family: Cormorant Garamond;
+}
+.text-left{
+  justify-items: end;
+  font-size: 20px;
+  font-weight: 20;
+  line-height: 1.5;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  /* font-family: Cormorant Garamond; */
+}
+.text-left-link a{
+  padding-left: 63%;
+  list-style: none;
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+  font-family: Cormorant Garamond;
+}
+.sec-4{
+  background-color: #fafbf3;
+  padding-bottom: 50px;
+  
+}
+.box{
+  padding-top: 8vw;
+  padding-left: 150px;
+}
+.box>h2{
+  
+  line-height: 1; 
+  font-size: 60px;
+  font-weight: 800;
+}
+.box>p{
+  font-size: 17px;
+  padding-top: 25px;
+  font-family: Cormorant Garamond;
+}
+.card{
+  padding-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.sec-5{
+  background-color: black;
+  color: white;
+  font-family: 'Georgia', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:50vh;
+}
+.testimonial-container {
+            
+  max-width: 80%;
+  text-align: left;
+  padding: 20px;
+}
+
+.testimonial-title {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+.testimonial-quote {
+  font-size: 2rem;
+  font-style: italic;
+  margin: 20px 0;
+}
+
+.testimonial-author {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #e0b77b;
+}
+
+@media (max-width: 768px) {
+  .testimonial-quote {
+      font-size: 1.5rem;
+  }
+
+  .testimonial-container {
+      max-width: 90%;
+  }
+  .hero-right{
+    font-size: 50px;
+  }
+}
+.sec-6{
+  background-color: #fafafa;
+  color: #000;
+  padding-bottom: 20px;
+}
+.offers-container {
+  max-width: 90%;
+  margin: auto;
+  /* text-align: center; */
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 50px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+td a {
+  text-decoration: none;
+  font-style: italic;
+  color: #000;
+  font-weight: bold;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+  }
+
+ .box h2 {
+      font-size: 2rem;
+  }
+
+  p {
+      font-size: 1rem;
+  }
+}
+.sec-7{
+  background-color: #f8f8f0;
+  font-family: 'Arial', sans-serif;
+  color: #0a0d08;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  text-align: center;
+}
+.offer-container {
+  max-width: 80%;
+  padding: 20px;
+}
+
+.offer-title {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.offer-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.offer-text {
+  font-size: 1.2rem;
+  margin: 10px 0 20px;
+  font-style: italic;
+}
+
+.offer-button {
+  background-color: black;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.offer-button:hover {
+  background-color: #333;
+}
+
+@media (max-width: 768px) {
+  .offer-heading {
+      font-size: 2rem;
+  }
+
+  .offer-container {
+      max-width: 90%;
+  }
+}
+.footer {
+  background-color: #0a0f08;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+
+/* Footer Left */
+.footer-left h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-left p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: white;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 18px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+/* Footer Center */
+.footer-center{
+  display: flex;
+  gap: 100px;
+}
+.footer-center ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-center ul li {
+  margin: 5px 0;
+}
+
+.footer-center ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-center ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Right */
+.footer-right p {
+  font-size: 14px;
+  color: white;
+  padding-top: 6px;
+}
+
+.footer-right a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      text-align: center;
+  }
+  .footer-left, .footer-center, .footer-right {
+      margin-bottom: 15px;
+  }
+}
+
