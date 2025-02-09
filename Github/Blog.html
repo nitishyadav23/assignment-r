@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENROUTE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f8f8f8;
+    padding: 20px;
+} */
+.blog-container {
+    /* padding-left: 250px; */
+    padding-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.blog-card {
+    background: white;
+    width: 23%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+.blog-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.blog-content {
+    padding: 15px;
+}
+.blog-date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+}
+.blog-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+@media (max-width: 1024px) {
+    .blog-card {
+        width: 48%;
+    }
+}
+@media (max-width: 768px) {
+    .blog-card {
+        width: 100%;
+    }
+}
+</style>
+<body>
+    <header>
+        <div class="logo">Enroute</div>
+        <div class="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <span class="bar"><a href=""><i class="fa-solid fa-bars" style="color: #111212;"></i></a></span>
+            <span><a href="#"><i class="fab fa-facebook-f"></i></a></span>
+            <span><a href="#"><i class="fab fa-instagram"></i></a></span>
+            <span><a href="#"><i class="fab fa-tumblr"></i></a></span>
+          </ul>
+          
+        </div>
+    </header>
+    <section class="blog-container">
+        <div class="blog-card">
+            <img src="https://enroutedemo.wordpress.com/wp-content/uploads/2023/10/1bad3-0f7a1-sea-road-white-street-house-town-493422-pxhere.com_.jpg" alt="Greek Islands">
+            <div class="blog-content">
+                <div class="blog-date">May 19, 2023</div>
+                <div class="blog-title">Discover Aegean Treasures: A Quick Guide to the Best Greek Islands to Visit</div>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <img src="https://enroutedemo.wordpress.com/wp-content/uploads/2023/10/7afc8-9c48e-beach-landscape-sea-coast-water-rock-1222184-pxhere.com_.jpg" alt="Malaga Coast">
+            <div class="blog-content">
+                <div class="blog-date">May 19, 2023</div>
+                <div class="blog-title">Savouring the Andalusian Sun: A Guide to Coastal Towns in Malaga</div>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <img src="https://enroutedemo.wordpress.com/wp-content/uploads/2023/10/67be3-a3d14-architecture-sky-road-skyline-street-town-1285329-pxhere.com_.jpg" alt="Germany City">
+            <div class="blog-content">
+                <div class="blog-date">May 19, 2023</div>
+                <div class="blog-title">Navigating Deutschland Affordably: A Guide to Traveling Germany on a Budget</div>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <img src="https://enroutedemo.wordpress.com/wp-content/uploads/2023/10/b9dee-7feb3-tree-nature-grass-plant-lawn-river-779871-pxhere.com_.jpg" alt="Oxford Path">
+            <div class="blog-content">
+                <div class="blog-date">May 19, 2023</div>
+                <div class="blog-title">Unraveling the Dreaming Spires: 10 Essential Things to Do in Oxford</div>
+            </div>
+        </div>
+    </section>
+    <section class="blog-container">
+        <div class="blog-card">
+            <img src="https://enroutedemo.wordpress.com/wp-content/uploads/2023/10/1e7c8-aaaa2-light-architecture-night-sunlight-paris-cityscape-1131424-pxhere.com_.jpg" alt="Greek Islands">
+            <div class="blog-content">
+                <div class="blog-date">May 19, 2023</div>
+                <div class="blog-title">Discover Aegean Treasures: A Quick Guide to the Best Greek Islands to Visit</div>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <img src="https://enroutedemo.wordpress.com/wp-content/uploads/2023/10/a8baf-9e866-leaf-america-yellow-map-globe-art-811136-pxhere.com_.jpg" alt="Malaga Coast">
+            <div class="blog-content">
+                <div class="blog-date">May 19, 2023</div>
+                <div class="blog-title">Savouring the Andalusian Sun: A Guide to Coastal Towns in Malaga</div>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <img src="https://enroutedemo.wordpress.com/wp-content/uploads/2023/10/e180b-d1fbb-landscape-sea-coast-tree-water-rock-751958-pxhere.com_.jpg" alt="Germany City">
+            <div class="blog-content">
+                <div class="blog-date">May 19, 2023</div>
+                <div class="blog-title">Navigating Deutschland Affordably: A Guide to Traveling Germany on a Budget</div>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <img src="https://enroutedemo.wordpress.com/wp-content/uploads/2023/10/2c3ab-e8ef2-sea-path-ocean-dock-wave-lake-1387589-pxhere.com_.jpg" alt="Oxford Path">
+            <div class="blog-content">
+                <div class="blog-date">May 19, 2023</div>
+                <div class="blog-title">Unraveling the Dreaming Spires: 10 Essential Things to Do in Oxford</div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>Enroute</h2>
+                <p>3 Cottage Rd, Exford, <br> Minehead SA12 7TG</p>
+                <p>01234567890</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-tumblr"></i></a>
+                </div>
+            </div>
+            <div class="footer-center">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="footer-right">
+                  <p>Designed with <a href="#">WordPress</a></p>
+              </div>
+            </div>
+            
+        </div>
+    </footer>

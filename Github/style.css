@@ -1,20 +1,8 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", system-ui;;
-}
-html,body{
-    overflow-x:hidden  ;
-}
-.nav{
-    display: flex;
-    justify-content: space-between;
-} */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x:hidden;
   }
 
   body {
@@ -39,7 +27,7 @@ html,body{
   .nav ul {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 16px;
     
   }
 
@@ -325,6 +313,7 @@ td a:hover {
   padding: 20px 0;
   color: white;
   text-align: center;
+  padding-bottom: 80px;
 }
 
 .footer-container {
